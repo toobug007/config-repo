@@ -1,3 +1,7 @@
 info:
   description: Cai Cloud Sample
   url: https://github.com/cai-cloud/config-repo
+spring:
+  datasource:
+    username: dbuser
+    password: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
