@@ -3,3 +3,7 @@ client:
 user:
   username: cloud username
   password: '{cipher}401b9e8a1cf773e633b00566b1738d450b882ab409cc9090a5d693877902eaf6'
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://10.241.60.52:8080/eureka/
