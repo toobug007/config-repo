@@ -1,5 +1,7 @@
 eureka:
   client:
+    registerWithEureka: false
+    fetchRegistry: false
     region: zh-middle-1
     availability-zones: zh-middle-1a,zh-middle-1b
     serviceUrl:
